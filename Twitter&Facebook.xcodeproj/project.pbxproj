@@ -13,8 +13,15 @@
 		B26FE23415BB3A6000BC61B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B26FE23215BB3A6000BC61B2 /* InfoPlist.strings */; };
 		B26FE25015BB3B9100BC61B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B26FE24715BB3B9100BC61B2 /* AppDelegate.m */; };
 		B26FE25115BB3B9100BC61B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B26FE24915BB3B9100BC61B2 /* main.m */; };
-		B26FE25415BB3B9100BC61B2 /* sip.png in Resources */ = {isa = PBXBuildFile; fileRef = B26FE24D15BB3B9100BC61B2 /* sip.png */; };
-		B26FE25915BB3BB100BC61B2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26FE25815BB3BB100BC61B2 /* Social.framework */; };
+		B26FE25915BB3BB100BC61B2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26FE25815BB3BB100BC61B2 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B2D2498315BC15D300EF9A33 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D2498215BC15D300EF9A33 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B2D249A615BC187400EF9A33 /* facebook_d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D2499F15BC187400EF9A33 /* facebook_d@2x.png */; };
+		B2D249A715BC187400EF9A33 /* facebook_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A015BC187400EF9A33 /* facebook_h@2x.png */; };
+		B2D249A815BC187400EF9A33 /* facebook_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A115BC187400EF9A33 /* facebook_n@2x.png */; };
+		B2D249A915BC187400EF9A33 /* sip.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A215BC187400EF9A33 /* sip.png */; };
+		B2D249AA15BC187400EF9A33 /* twitter_d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A315BC187400EF9A33 /* twitter_d@2x.png */; };
+		B2D249AB15BC187400EF9A33 /* twitter_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A415BC187400EF9A33 /* twitter_h@2x.png */; };
+		B2D249AC15BC187400EF9A33 /* twitter_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D249A515BC187400EF9A33 /* twitter_n@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +35,15 @@
 		B26FE24615BB3B9100BC61B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B26FE24715BB3B9100BC61B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B26FE24915BB3B9100BC61B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B26FE24D15BB3B9100BC61B2 /* sip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sip.png; sourceTree = "<group>"; };
 		B26FE25815BB3BB100BC61B2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B2D2498215BC15D300EF9A33 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		B2D2499F15BC187400EF9A33 /* facebook_d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_d@2x.png"; sourceTree = "<group>"; };
+		B2D249A015BC187400EF9A33 /* facebook_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_h@2x.png"; sourceTree = "<group>"; };
+		B2D249A115BC187400EF9A33 /* facebook_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_n@2x.png"; sourceTree = "<group>"; };
+		B2D249A215BC187400EF9A33 /* sip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sip.png; sourceTree = "<group>"; };
+		B2D249A315BC187400EF9A33 /* twitter_d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_d@2x.png"; sourceTree = "<group>"; };
+		B2D249A415BC187400EF9A33 /* twitter_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_h@2x.png"; sourceTree = "<group>"; };
+		B2D249A515BC187400EF9A33 /* twitter_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_n@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D2498315BC15D300EF9A33 /* Twitter.framework in Frameworks */,
 				B26FE25915BB3BB100BC61B2 /* Social.framework in Frameworks */,
 				B26FE22A15BB3A6000BC61B2 /* UIKit.framework in Frameworks */,
 				B26FE22C15BB3A6000BC61B2 /* Foundation.framework in Frameworks */,
@@ -50,9 +65,9 @@
 		B26FE21A15BB3A6000BC61B2 = {
 			isa = PBXGroup;
 			children = (
+				B2D2499E15BC187400EF9A33 /* Images */,
 				B26FE23015BB3A6000BC61B2 /* Supporting Files */,
 				B26FE24415BB3B9100BC61B2 /* Classes */,
-				B26FE24A15BB3B9100BC61B2 /* Images */,
 				B26FE22815BB3A6000BC61B2 /* Frameworks */,
 				B26FE22615BB3A6000BC61B2 /* Products */,
 			);
@@ -69,6 +84,7 @@
 		B26FE22815BB3A6000BC61B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2D2498215BC15D300EF9A33 /* Twitter.framework */,
 				B26FE25815BB3BB100BC61B2 /* Social.framework */,
 				B26FE22915BB3A6000BC61B2 /* UIKit.framework */,
 				B26FE22B15BB3A6000BC61B2 /* Foundation.framework */,
@@ -115,10 +131,16 @@
 			path = main;
 			sourceTree = "<group>";
 		};
-		B26FE24A15BB3B9100BC61B2 /* Images */ = {
+		B2D2499E15BC187400EF9A33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B26FE24D15BB3B9100BC61B2 /* sip.png */,
+				B2D2499F15BC187400EF9A33 /* facebook_d@2x.png */,
+				B2D249A015BC187400EF9A33 /* facebook_h@2x.png */,
+				B2D249A115BC187400EF9A33 /* facebook_n@2x.png */,
+				B2D249A215BC187400EF9A33 /* sip.png */,
+				B2D249A315BC187400EF9A33 /* twitter_d@2x.png */,
+				B2D249A415BC187400EF9A33 /* twitter_h@2x.png */,
+				B2D249A515BC187400EF9A33 /* twitter_n@2x.png */,
 			);
 			name = Images;
 			path = "Twitter&Facebook/Images";
@@ -176,7 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26FE23415BB3A6000BC61B2 /* InfoPlist.strings in Resources */,
-				B26FE25415BB3B9100BC61B2 /* sip.png in Resources */,
+				B2D249A615BC187400EF9A33 /* facebook_d@2x.png in Resources */,
+				B2D249A715BC187400EF9A33 /* facebook_h@2x.png in Resources */,
+				B2D249A815BC187400EF9A33 /* facebook_n@2x.png in Resources */,
+				B2D249A915BC187400EF9A33 /* sip.png in Resources */,
+				B2D249AA15BC187400EF9A33 /* twitter_d@2x.png in Resources */,
+				B2D249AB15BC187400EF9A33 /* twitter_h@2x.png in Resources */,
+				B2D249AC15BC187400EF9A33 /* twitter_n@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +255,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -247,7 +275,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -261,6 +289,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitter&Facebook/Twitter&Facebook-Prefix.pch";
 				INFOPLIST_FILE = "Twitter&Facebook/Twitter&Facebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitter&Facebook/Twitter&Facebook-Prefix.pch";
 				INFOPLIST_FILE = "Twitter&Facebook/Twitter&Facebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
